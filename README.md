@@ -630,11 +630,6 @@ pnpm mobile:open
 
 ---
 
-## 📄 License
-
-[Add your license here]
-
----
 
 ## 🤝 Support & Contribution
 
