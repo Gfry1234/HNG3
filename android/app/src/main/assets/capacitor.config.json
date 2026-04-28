@@ -1,0 +1,9 @@
+{
+	"appId": "com.weatherapp.app",
+	"appName": "WeatherApp",
+	"webDir": "out",
+	"server": {
+		"androidScheme": "http",
+		"cleartext": true
+	}
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Weather user/avatar icon -->
+  <defs>
+    <style>
+      @media (prefers-color-scheme: light) {
+        .user-bg { fill: #e8f4f8; }
+        .user-circle { fill: #FFD700; }
+        .user-cloud { fill: #B0C4D3; }
+      }
+      @media (prefers-color-scheme: dark) {
+        .user-bg { fill: #2a3a3f; }
+        .user-circle { fill: #FFA500; }
+        .user-cloud { fill: #606080; }
+      }
+    </style>
+  </defs>
+  <circle cx="100" cy="100" r="95" class="user-bg"/>
+  <!-- Head (sun) -->
+  <circle cx="100" cy="70" r="30" class="user-circle"/>
+  <!-- Body (cloud) -->
+  <path d="M 70 110 Q 65 110 65 105 Q 65 100 70 100 Q 72 90 82 90 Q 88 85 95 90 Q 100 88 105 92 Q 120 90 125 105 Q 135 105 135 115 Q 135 125 125 125 L 70 125 Q 60 125 60 115 Q 60 110 70 110 Z" class="user-cloud"/>
+  <!-- Small rain drops accent -->
+  <g stroke="#4A90E2" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="75" y1="130" x2="72" y2="140"/>
+    <line x1="100" y1="130" x2="97" y2="140"/>
+    <line x1="125" y1="130" x2="122" y2="140"/>
+  </g>
+</svg>

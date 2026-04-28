@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+tsconfig.tsbuildinfo
+
+# Android
+android/app/build/
+android/.gradle/
+android/.idea/
+android/*/build/
+android/local.properties
+
+# Environment
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
